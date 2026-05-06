@@ -154,5 +154,5 @@ Este projeto foi desenvolvido com o objetivo de:
 
 ```bash
 
-git clone https://github.com/seu-usuario/seu-repositorio.git
+# git clone [https://github.com/lorenapereira8/Project_Fullstack_Node_Express.git]
 

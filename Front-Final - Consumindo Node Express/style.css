@@ -1,0 +1,125 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Fundo da página */
+body {
+    background: #f2f4f8;
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+
+/* Container principal */
+#container {
+    display: flex;
+    gap: 40px;
+    width: 900px;
+}
+
+/* Caixa da lista de usuários */
+#usuario {
+    flex: 1;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+#usuario h1 {
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+/* Lista */
+#lista-usuario {
+    list-style: none;
+}
+
+#lista-usuario li {
+    background: #f9fafc;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    border-left: 4px solid #4a90e2;
+}
+
+/* Botões dentro da lista */
+#lista-usuario button {
+    margin-top: 8px;
+    margin-right: 5px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+#lista-usuario button:first-of-type {
+    background: #f0ad4e;
+    color: white;
+}
+
+#lista-usuario button:last-of-type {
+    background: #d9534f;
+    color: white;
+}
+
+/* Formulário */
+#usuario-cadastro {
+    flex: 1;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+#usuario-cadastro h2 {
+    margin-bottom: 15px;
+    color: #333;
+}
+
+/* Inputs */
+#usuario-cadastro input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    outline: none;
+    transition: 0.3s;
+}
+
+#usuario-cadastro input:focus {
+    border-color: #4a90e2;
+}
+
+/* Botões principais */
+#usuario-cadastro button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-right: 5px;
+    font-weight: bold;
+}
+
+#cadastrar {
+    background: #28a745;
+    color: white;
+}
+
+#atualizar {
+    background: #007bff;
+    color: white;
+}
+
+#usuario-cadastro button:hover,
+#lista-usuario button:hover {
+    opacity: 0.85;
+}
